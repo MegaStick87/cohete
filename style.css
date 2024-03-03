@@ -1,0 +1,82 @@
+.circulo {
+    width: 100px; /* Ancho del círculo. */
+    height: 100px; /* Altura del círculo. */
+    border-radius: 50%; /* Hace que las esquinas sean completamente redondas, creando un círculo. */
+    background-color: rgb(255, 255, 255); /* Color de fondo blanco. */
+    border-style: solid; /* Borde sólido alrededor del círculo. */
+    margin-bottom: 50px; /* Margen inferior. */
+    margin-top: -400px; /* Margen superior negativo para desplazar hacia arriba. */
+    display: block; /* Muestra el círculo como un bloque, ocupando toda la línea. */
+    margin-left: auto; /* Centra horizontalmente el círculo. */
+    margin-right: auto; /* Centra horizontalmente el círculo. */
+}
+
+.rectangulo {
+    width: 290px; /* Ancho del rectángulo. */
+    height: 500px; /* Altura del rectángulo. */
+    border-radius: 3%; /* Bordes ligeramente redondeados. */
+    background-color: rgb(117, 107, 255); /* Color de fondo azul claro. */
+    border-style: solid; /* Borde sólido alrededor del rectángulo. */
+    margin-bottom: 55px; /* Margen inferior. */
+    display: block; /* Muestra el rectángulo como un bloque. */
+    margin-left: auto; /* Centra horizontalmente el rectángulo. */
+    margin-right: auto; /* Centra horizontalmente el rectángulo. */
+}
+
+.triangulo {
+    width: 0px; /* Ancho cero, necesario para la técnica de triángulo CSS. */
+    border: 115px solid transparent; /* Borde transparente para las partes no visibles del triángulo. */
+    border-top: 0; /* Borde superior eliminado. */
+    border-bottom: 120px solid rgb(43, 175, 146); /* Borde inferior sólido que forma el triángulo. */
+    margin-left: auto; /* Centra horizontalmente el triángulo. */
+    margin-right: auto; /* Centra horizontalmente el triángulo. */
+    display: block; /* Muestra el triángulo como un bloque. */
+}
+
+.rombo {
+    width: 80px; /* Ancho del rombo. */
+    height: 80px; /* Altura del rombo. */
+    background-color: rgb(232, 112, 33); /* Color de fondo naranja. */
+    position: relative; /* Posicionamiento relativo para la transformación. */
+    transform: rotate(55deg); /* Rota el cuadrado para formar un rombo. */
+    border-style: solid; /* Borde sólido alrededor del rombo. */
+    margin-left: 980px; /* Margen izquierdo para posicionar el rombo. */
+    margin-top: 20px; /* Margen superior. */
+    box-shadow: rgb(236, 138, 32); /* Sombra del rombo. */
+    display: block; /* Muestra el rombo como un bloque. */
+}
+
+.rombo2 {
+    /* Simplemente es similar al selector '.rombo', pero con una rotación opuesta y posiciones diferentes. */
+    width: 80px;
+    height: 80px;
+    background-color: rgb(232, 112, 33);
+    transform: rotate(-55deg);
+    border-style: solid;
+    margin-left: 850px;
+    margin-top: -85px;
+    box-shadow: rgb(243, 156, 34);
+    display: block;
+}
+
+.triangulo_bottom_left {
+    /* Crea un triángulo apuntando hacia la esquina inferior izquierda. */
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #000; /* Borde inferior negro que forma el triángulo. */
+    border-right: 100px solid transparent; /* Borde derecho transparente. */
+    margin-left: 1100px; /* Posiciona el triángulo a la derecha. */
+    margin-top: 136px; /* Posiciona el triángulo hacia abajo. */
+    display: block;
+}
+
+.triangulo_bottom_right {
+    /* Crea un triángulo apuntando hacia la esquina inferior derecha. */
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #000; /* Borde inferior negro que forma el triángulo. */
+    border-left: 100px solid transparent; /* Borde izquierdo transparente. */
+    margin-left: 705px; /* Posiciona el triángulo a la derecha. */
+    margin-top: -100px; /* Posiciona el triángulo hacia arriba. */
+    display: block;
+}
